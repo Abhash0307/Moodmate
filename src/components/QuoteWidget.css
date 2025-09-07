@@ -1,0 +1,101 @@
+/* .quote-widget {
+  background: #fefefe;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.quote-text {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.quote-author {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.quote-actions button {
+  margin: 0 6px;
+  padding: 0.4rem 0.7rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.quote-actions button:hover {
+  background: #0056b3;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dark-mode .quote-widget {
+  background: #1f1f1f;
+  color: #eee;
+}  */
+
+
+.quote-carousel {
+  background-color: var(--card-bg);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 1.5rem auto;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.quote-carousel h3 {
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.quote-author {
+  font-size: 1rem;
+  color: var(--text-faded);
+}
+
+/* Support dark/light mode using CSS variables */
+body.light-mode {
+  --card-bg: #ffffff;
+  --text-primary: #333;
+  --text-secondary: #555;
+  --text-faded: #888;
+}
+
+body.dark-mode {
+  --card-bg: #1e1e1e;
+  --text-primary: #eee;
+  --text-secondary: #ccc;
+  --text-faded: #999;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+

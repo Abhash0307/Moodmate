@@ -1,0 +1,27 @@
+.brickbreaker-wrapper {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fefefe;
+  transition: background 0.3s;
+}
+.brickbreaker-wrapper.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+canvas {
+  background-color: #111;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+.controls button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.controls button:hover {
+  background-color: #0056b3;
+}

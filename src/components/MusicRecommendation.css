@@ -1,0 +1,44 @@
+song-container {
+  padding: 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.song-container h2 {
+  color: hsl(327, 100%, 50%);
+  margin-bottom: 1rem;
+}
+
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.song-card {
+  background: #000102;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 3px 10px rgba(230, 224, 224, 0.752);
+}
+
+.song-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.song-card h4 {
+  margin: 0.5rem 0;
+}
+
+.song-card a {
+  text-decoration: none;
+  color: #e9edf1;
+  font-weight: bold;
+}
+  
+
+
+
+
+

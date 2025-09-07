@@ -1,0 +1,45 @@
+.ttt-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ttt-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.ttt-cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2.5rem;
+  background: #f7f7f7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ttt-cell:hover {
+  background-color: #e0f7fa;
+}
+
+.ttt-winner {
+  font-size: 1.4rem;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,184 @@
+ /* .scanner-app {
+  background: linear-gradient(to bottom right, #eef7ff, #ffe9f3);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.scanner-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h2 {
+  color: #0f3057;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.camera-circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem auto;
+  border: 5px solid #007bff;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+}
+
+.webcam-circle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.glow-button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #00bfff, #ff69b4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  animation: glow 1.5s infinite alternate;
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #00bfff;
+  }
+  to {
+    box-shadow: 0 0 20px #ff69b4;
+  }
+}
+
+.loader-text {
+  margin-top: 1rem;
+  color: #007bff;
+  font-weight: bold;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.chat-bubble {
+  margin-top: 2rem;
+  background: #f0faff;
+  color: #333;
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  border-radius: 20px;
+  border: 2px solid #007bff;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px rgba(0,123,255,0.1);
+}  */
+/* EmotionScanner.css */
+
+ .scanner-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #d0eaff, #f0faff);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.scanner-card {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.scanner-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007acc;
+}
+
+.camera-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #007acc;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto 20px auto;
+}
+
+.webcam-circle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.glow-button {
+  background: #007acc;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #007acc;
+}
+
+.glow-button:hover {
+  background: #005b99;
+  box-shadow: 0 0 20px #005b99;
+} 
+
+h3 {
+  color: #444;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.emotion-options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.emotion-options button {
+  background: #b24f7a;
+  border: 1px solid #e4caca;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.emotion-options button:hover {
+  background: #513b4b;
+  border-color: #00bcd4;
+} 

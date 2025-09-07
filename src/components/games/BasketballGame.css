@@ -1,0 +1,34 @@
+.basketball-game {
+  text-align: center;
+  padding: 20px;
+  transition: background 0.3s;
+}
+.basketball-game.light {
+  background: #f0f0f0;
+  color: #000;
+}
+.basketball-game.dark {
+  background: #111;
+  color: #fff;
+}
+canvas {
+  border: 2px solid #333;
+  background-color: #fff;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+.game-controls button {
+  margin: 0.5rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.game-controls button:hover {
+  background-color: #0056b3;
+}
