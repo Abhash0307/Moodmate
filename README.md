@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+🎭 MoodMate React.js + FastAPI + Python + Gemini AI + DeepFace + TMDB + Spotify API May 2025 – June 2025
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MoodMate is an AI-powered mood detection and recommendation platform that understands your emotions and offers personalized experiences—including chat, music, movies, books, and games—based on your detected mood. It improves mental wellness through intelligent suggestions, voice interaction, and an engaging user interface.
 
-## Available Scripts
+🧠 Features ✅ 92% Mood Detection Accuracy using DeepFace and sentiment analysis
 
-In the project directory, you can run:
+🎯 5x Personalized Recommendations:
 
-### `npm start`
+🎵 Music via Spotify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎬 Movies from TMDB
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📚 Motivational Books (100+ titles)
 
-### `npm test`
+🧩 Mood-Based Games (20+ games)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💬 Gemini AI-Powered Chat
 
-### `npm run build`
+🧘 Healing Library for emotional support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎤 Voice Command Support for hands-free control
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌙 Dark Mode for user comfort
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔐 Secure Authentication with JWT
 
-### `npm run eject`
+📈 +40% Increased User Engagement
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack Layer Technologies Used Frontend React.js, HTML, CSS, JavaScript Backend FastAPI, Python AI/ML Gemini AI, DeepFace, Sentiment Analysis APIs Spotify API, TMDB API Auth & UX JWT, Voice Commands, Dark Mode
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the repository git clone https://github.com/your-username/moodmate.git cd moodmate
+Setup Backend (Python + FastAPI)
+cd backend python -m venv venv source venv/bin/activate # For Windows: venv\Scripts\activate pip install -r requirements.txt uvicorn main:app --reload 3. Setup Frontend (React.js)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd frontend npm install npm start 4. Environment Variables Create a .env file in both /backend and /frontend folders:
 
-## Learn More
+✨ Contributions We welcome your contributions! To contribute:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fork the repo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a new branch (git checkout -b feature-name)
 
-### Code Splitting
+Commit changes (git commit -m 'Add feature')
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Push and create a PR
 
-### Analyzing the Bundle Size
+🙏 Acknowledgements DeepFace
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Gemini AI
 
-### Making a Progressive Web App
+Spotify Developer API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+TMDB API
 
-### Advanced Configuration
+All open-source libraries and contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Let me know if you'd like me to:
 
-### Deployment
+Add badges (e.g., Made with React, Python, etc.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Include installation scripts or Docker setup
 
-### `npm run build` fails to minify
+Generate preview images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Format this as a downloadable file
+
+Ready to help you polish it further!
